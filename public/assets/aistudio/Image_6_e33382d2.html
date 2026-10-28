@@ -1,0 +1,531 @@
+<!DOCTYPE html><html lang="ko" style="width: 1280px; height: 2594px; overflow: hidden; position: relative;"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"><link href="//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css" rel="stylesheet" type="text/css" class=""><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"primary-fixed-dim":"#b6c4ff","surface-variant":"#dae2fd","on-surface":"#131b2e","on-secondary-fixed-variant":"#004a79","secondary-container":"#8fc5ff","on-tertiary-fixed":"#131d24","surface-container-low":"#f2f3ff","tertiary-container":"#69737c","secondary":"#236296","surface-container":"#eaedff","secondary-fixed":"#d0e4ff","primary-container":"#4169e1","on-surface-variant":"#434654","on-background":"#131b2e","on-primary-fixed":"#00164e","inverse-surface":"#283044","on-secondary-container":"#055285","on-primary-fixed-variant":"#003baf","primary":"#214fc7","surface-dim":"#d2d9f4","tertiary-fixed-dim":"#bec8d2","on-error":"#ffffff","on-tertiary":"#ffffff","surface-tint":"#2854cc","primary-fixed":"#dce1ff","on-primary":"#ffffff","inverse-on-surface":"#eef0ff","on-primary-container":"#f8f7ff","on-secondary":"#ffffff","on-tertiary-container":"#f4f8ff","on-error-container":"#93000a","error":"#ba1a1a","inverse-primary":"#b6c4ff","outline":"#747685","on-tertiary-fixed-variant":"#3e4851","surface-container-high":"#e2e7ff","on-secondary-fixed":"#001d34","surface-container-highest":"#dae2fd","surface-bright":"#faf8ff","error-container":"#ffdad6","background":"#faf8ff","tertiary-fixed":"#dae4ee","outline-variant":"#c4c5d6","surface":"#faf8ff","secondary-fixed-dim":"#9bcbff","surface-container-lowest":"#ffffff","tertiary":"#515a63"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-sm":"0.5rem","space-xl":"2.5rem","space-lg":"1.5rem","space-md":"1rem","gutter":"1.5rem","margin":"2rem","space-xs":"0.25rem"},fontFamily:{"headline-lg-mobile":["Inter"],"headline-xl-mobile":["Inter"],"headline-md":["Inter"],"label-md":["Inter"],"label-lg":["Inter"],"headline-lg":["Inter"],"headline-sm":["Inter"],"body-lg":["Inter"],"body-sm":["Inter"],"body-md":["Inter"],"headline-xl":["Inter"],"label-sm":["Inter"]},fontSize:{"headline-lg-mobile":["24px",{"lineHeight":"32px","fontWeight":"700"}],"headline-xl-mobile":["28px",{"lineHeight":"36px","fontWeight":"800"}],"headline-md":["22px",{"lineHeight":"30px","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","fontWeight":"600"}],"headline-lg":["32px",{"lineHeight":"40px","fontWeight":"700"}],"headline-sm":["18px",{"lineHeight":"26px","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"18px","fontWeight":"400"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"headline-xl":["40px",{"lineHeight":"48px","fontWeight":"800"}],"label-sm":["11px",{"lineHeight":"14px","fontWeight":"600"}]}}}}</script><style>
+@font-face {
+    font-family: 'Paperlogy';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-7Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Paperlogy';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-6SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Paperlogy';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-5Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Paperlogy';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-4Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+body, p, span:not(.material-symbols-outlined), button, input, div, a, label {
+    font-family: 'Spoqa Han Sans Neo', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6, [class*='font-headline'], .font-bold, .font-extrabold, .font-semibold {
+    font-family: 'Paperlogy', 'Spoqa Han Sans Neo', sans-serif !important;
+}
+</style></head><body class="bg-background font-body-md text-on-surface antialiased min-h-screen flex flex-col"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 max-w-[1440px] mx-auto px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-sm" data-path="home" href="{{DATA:SCREEN:SCREEN_7}}"><img alt="Space Finder" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRXnL-kmU5e6TZNptkUpqAhO9-8WAx4H89pYlr9_KxFZgHWP5aD0cZeiFtQFoa71dQ2OqOu7TrARu2qMgPZrefpvhwz-xRNJ_HGLBzf_r04RJHtUXS76sZ2wcrcwQ-9TQYHRldgJ_F8aSmKW9PaPz9iGtY8hxdQxGS_BofiN_iLTD1p-XKMlxcgEccNmTXIeqOqXJ8mBLrTMmGp9LrTiZtviPJ1BfyCmM8pgseS0y9JP1uwBV7cXLIJMDKkrvUEvfZFA"></a><nav class="hidden md:flex items-center h-16 gap-6" id="gnb-nav" data-active-classes="text-[#4169E1] font-semibold border-[#4169E1]"><a class="gnb-tab relative flex items-center h-full px-1 font-label-lg text-label-lg text-[#475569] hover:text-[#4169E1] transition-colors border-b-2 border-transparent" data-path="home" href="{{DATA:SCREEN:SCREEN_7}}">홈</a><a class="gnb-tab relative flex items-center h-full px-1 font-label-lg text-label-lg text-[#475569] hover:text-[#4169E1] transition-colors border-b-2 border-transparent" data-path="match-survey" href="{{DATA:SCREEN:SCREEN_27}}">추천 공간 찾기&nbsp;&nbsp;</a><a aria-current="page" class="gnb-tab relative flex items-center h-full px-1 font-label-lg text-label-lg text-[#4169E1] font-semibold transition-colors border-b-2 border-[#4169E1]" data-path="explore-and-map" href="{{DATA:SCREEN:SCREEN_23}}">공간 탐색 및 지도</a></nav></div><div class="flex items-center gap-space-md"><button aria-label="알림" class="p-space-xs text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low rounded-full transition-colors flex items-center justify-center" type="button"></button><a class="flex items-center" data-path="my-profile" href="#"></a></div></div></header><main class="flex-1 w-full pt-16 bg-background"><div class="flex flex-col w-full">
+<!-- Top Filter & Query Bar -->
+<section class="sticky top-16 z-30 w-full bg-surface-container-lowest shadow-sm">
+<div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-col gap-3">
+<!-- Active Condition Badges & Reset -->
+<div class="flex flex-wrap items-center gap-2">
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+          강남/역삼
+          <button aria-label="필터 해제" class="hover:text-primary transition-colors flex items-center" type="button">
+<span class="material-symbols-outlined text-[14px]">close</span>
+</button>
+</span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">record_voice_over</span>
+          자유 발화 가능
+          <button aria-label="필터 해제" class="hover:text-secondary transition-colors flex items-center" type="button">
+<span class="material-symbols-outlined text-[14px]">close</span>
+</button>
+</span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">phone_in_talk</span>
+          폰부스 1개 이상
+          <button aria-label="필터 해제" class="hover:text-error transition-colors flex items-center" type="button">
+<span class="material-symbols-outlined text-[14px]">close</span>
+</button>
+</span>
+<button class="inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors font-label-md text-label-md" id="reset-filter-btn" type="button">
+<span class="material-symbols-outlined text-[16px]">restart_alt</span>
+          필터 초기화
+        </button>
+<div class="ml-auto flex items-center gap-2">
+<span class="font-body-sm text-body-sm text-on-surface-variant hidden sm:inline">총 <strong class="text-primary font-semibold">18개</strong>의 적합 공간</span>
+<!-- Mobile map/list view toggle pill -->
+<div class="lg:hidden flex items-center bg-surface-container rounded-full p-0.5">
+<button class="px-3 py-1 rounded-full font-label-sm text-label-sm bg-primary text-on-primary" id="toggle-list">목록</button>
+<button class="px-3 py-1 rounded-full font-label-sm text-label-sm text-on-surface-variant" id="toggle-map">지도</button>
+</div>
+</div>
+</div>
+<!-- Quick Control Select Dropdowns -->
+<div class="flex items-center gap-2.5 overflow-x-auto pb-1 scrollbar-none text-on-surface">
+<div class="relative shrink-0">
+<button class="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-surface-container-low hover:bg-surface-container font-label-md text-label-md text-on-surface transition-colors">
+<span class="material-symbols-outlined text-[16px] text-primary">voice_chat</span>
+            발화 등급: <span class="text-primary font-bold">상시 허용</span>
+<span class="material-symbols-outlined text-[14px]">expand_more</span>
+</button>
+</div>
+<div class="relative shrink-0">
+<button class="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-surface-container-low hover:bg-surface-container font-label-md text-label-md text-on-surface transition-colors">
+<span class="material-symbols-outlined text-[16px] text-secondary">meeting_room</span>
+            방음 폰부스: <span class="text-on-surface font-semibold">1개 이상</span>
+<span class="material-symbols-outlined text-[14px]">expand_more</span>
+</button>
+</div>
+<div class="relative shrink-0">
+<button class="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-surface-container-low hover:bg-surface-container font-label-md text-label-md text-on-surface transition-colors">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">sort</span>
+            정렬: <span class="text-on-surface font-semibold">1시간 환산가 낮은 순</span>
+<span class="material-symbols-outlined text-[14px]">expand_more</span>
+</button>
+</div>
+<div class="relative shrink-0">
+<button class="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-surface-container-low hover:bg-surface-container font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors">
+<span class="material-symbols-outlined text-[16px]">desktop_windows</span>
+            모니터 대여 가능
+          </button>
+</div>
+<div class="relative shrink-0">
+<button class="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-surface-container-low hover:bg-surface-container font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+            24시간 운영
+          </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Split Main Body: Left Cards (Scrollable) & Right Map -->
+<div class="w-full flex-1 max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<div class="flex flex-col lg:flex-row gap-6 h-[calc(100vh-172px)] min-h-[640px]">
+<!-- Left Panel: Space Listings -->
+<div class="w-full lg:w-[540px] xl:w-[580px] shrink-0 h-full overflow-y-auto flex flex-col gap-4 pr-0 lg:pr-2" id="list-container">
+<!-- Live Status Hint Bar -->
+<div class="flex items-center justify-between px-4 py-2.5 rounded-xl bg-primary-fixed-dim/20 text-on-surface">
+<div class="flex items-center gap-2">
+<span class="relative flex h-2.5 w-2.5">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-primary"></span>
+</span>
+<span class="font-label-sm text-label-sm font-semibold text-primary">실시간 부트캠퍼 체크인 활성</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">강남역 2번 출구 기준 반경 1km</span>
+</div>
+<!-- Space Card 1 (Active / Highly Recommended) -->
+<div class="group relative rounded-2xl bg-surface-container-lowest p-4 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col sm:flex-row gap-4 cursor-pointer" data-target-pin="pin-1">
+<!-- Thumbnail & Tag Scrim -->
+<div class="relative w-full sm:w-48 h-44 shrink-0 rounded-xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A modern collaborative coworking lounge with tech bootcamp students coding on laptops, multiple monitors, high ceilings, natural sunlight pouring in, comfortable ergonomic mesh chairs, clean Scandinavian architectural interior, blue and slate accent lighting, sharp focus photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDw2U5uX5IKnacv-sfQxm5K-4UQBJkzig44C19VnrBcjTji0hWo-1HVedNFxVYQa0ol8hO_dqQu_108Z2jUEwnchv_noP_q-JTVR8iChNpVQk_mQjDaweboXLYnfAZOEt0plS5K4HxgX01Ur2ncJoHlb-rhRwk5TRDVoU8ZY5yp75vKZboZk_-KsBaSPDzQooSafRLvy8lOysgyqwJwLHAeMpxJcX5h9bYXUts8k2XuwCjVyjhRSIcv">
+<!-- Badges overlaid on image -->
+<div class="absolute top-2.5 left-2.5 flex flex-col gap-1 items-start">
+<span class="px-2 py-0.5 rounded-md bg-primary-container text-on-primary font-label-sm text-label-sm shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">volume_up</span>
+                상시 발화 허용
+              </span>
+</div>
+<button aria-label="북마크" class="absolute top-2.5 right-2.5 p-1.5 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface hover:text-error transition-colors" type="button">
+
+</button>
+<div class="absolute bottom-2 left-2 right-2 flex items-center justify-between text-on-primary font-label-sm text-label-sm px-2 py-1 rounded bg-inverse-surface/75 backdrop-blur-sm">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">meeting_room</span>
+                방음 폰부스 4실
+              </span>
+<span class="text-secondary-fixed">예약 불필요</span>
+</div>
+</div>
+<!-- Space Details -->
+<div class="flex-1 min-w-0 flex flex-col justify-between">
+<div>
+<div class="flex items-start justify-between gap-1 mb-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface truncate group-hover:text-primary transition-colors">스테이지나인 강남점</h3>
+<div class="flex items-center gap-0.5 text-primary shrink-0">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="font-label-md text-label-md">4.9</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm">(124)</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-2 flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-tertiary">directions_walk</span>
+                강남역 2번 출구 도보 3분 • 부트캠프 라운지 존 운영
+              </p>
+<!-- Hourly Calculated Cost Pill -->
+<div class="inline-flex items-baseline gap-1.5 px-3 py-1 rounded-lg bg-surface-container-low mb-2.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant">1시간 환산</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">2,200원</span>
+<span class="font-body-sm text-body-sm text-outline">/ 일일권 18,000원</span>
+</div>
+<!-- Perks Tag List -->
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">27인치 듀얼 모니터</span>
+
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">24시간 운영</span>
+<span class="px-2 py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-semibold">페어코딩 친화</span>
+</div>
+</div>
+<!-- Bottom Action Row -->
+<div class="pt-3 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">sensors</span>
+                현재 12명 학습 중
+              </span>
+<a href="{{DATA:SCREEN:SCREEN_21}}" data-path="space-detail" class="inline-flex items-center justify-center px-3.5 py-1.5 rounded-lg bg-primary-container text-on-primary font-label-sm text-label-sm hover:bg-primary transition-all">상세보기</a>
+</div>
+</div>
+</div>
+<!-- Space Card 2 -->
+<div class="group relative rounded-2xl bg-surface-container-lowest p-4 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col sm:flex-row gap-4 cursor-pointer" data-target-pin="pin-2">
+<div class="relative w-full sm:w-48 h-44 shrink-0 rounded-xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Futuristic glass phone booths and open study desks inside a warm minimalist tech coworking space, young developers wearing over-ear headsets discussing code, soft amber ambient ceiling lights, sleek wood and matte grey interior" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxeA7lB5JUSzXHUNHlNNjoFT2VOtO--QeBnWgtekYBswuGiJeYHXeDMnQN2As9-C03MfxqJQKxOzZZWHwiUUhgigsnHT3ucOWvXxUqqs4EG2gY4XMqJEpJsZoZFLACLu4XT4Pi1kNDM8CrHre4rEVrq-pIGVSztK5-6IcdKO_D-MwcW12yaHtIv_1XhdlLnoUx77ryYZXA2plF-j6v1_0C3uWCGI2bSKl_gC2oRrxhmR_7cy1l-yIm">
+<div class="absolute top-2.5 left-2.5 flex flex-col gap-1 items-start">
+<span class="px-2 py-0.5 rounded-md bg-secondary text-on-secondary font-label-sm text-label-sm shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">headphones</span>
+                폰부스 발화 허용
+              </span>
+</div>
+<button aria-label="북마크" class="absolute top-2.5 right-2.5 p-1.5 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface hover:text-error transition-colors" type="button">
+
+</button>
+<div class="absolute bottom-2 left-2 right-2 flex items-center justify-between text-on-primary font-label-sm text-label-sm px-2 py-1 rounded bg-inverse-surface/75 backdrop-blur-sm">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">meeting_room</span>
+                방음 폰부스 6실
+              </span>
+<span class="text-secondary-fixed">앱 간편 예약</span>
+</div>
+</div>
+<div class="flex-1 min-w-0 flex flex-col justify-between">
+<div>
+<div class="flex items-start justify-between gap-1 mb-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface truncate group-hover:text-primary transition-colors">패스트파이브 역삼 2호점</h3>
+<div class="flex items-center gap-0.5 text-primary shrink-0">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="font-label-md text-label-md">4.8</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm">(98)</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-2 flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-tertiary">directions_walk</span>
+                역삼역 3번 출구 도보 4분 • 방음 솔루션 완비
+              </p>
+<div class="inline-flex items-baseline gap-1.5 px-3 py-1 rounded-lg bg-surface-container-low mb-2.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant">1시간 환산</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">2,500원</span>
+<span class="font-body-sm text-body-sm text-outline">/ 일일권 20,000원</span>
+</div>
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">스마트 락커</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">무제한 에스프레소</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">모션데스크</span>
+</div>
+</div>
+<div class="pt-3 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">call</span>
+                부스 잔여 2개 즉시 이용
+              </span>
+<a href="{{DATA:SCREEN:SCREEN_21}}" data-path="space-detail" class="inline-flex items-center justify-center px-3.5 py-1.5 rounded-lg bg-surface-container-high text-on-surface font-label-sm text-label-sm hover:bg-surface-variant transition-all">상세보기</a>
+</div>
+</div>
+</div>
+<!-- Space Card 3 -->
+<div class="group relative rounded-2xl bg-surface-container-lowest p-4 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col sm:flex-row gap-4 cursor-pointer" data-target-pin="pin-3">
+<div class="relative w-full sm:w-48 h-44 shrink-0 rounded-xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="High tech innovation center campus with wide oak shared tables, large vertical monitors, glass-walled conference rooms, remote developers with laptops, industrial concrete accents, soft warm diffused lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMCduu9kkUZMtjNJc8rzAjBJqME4m9eMJVMIaOi2PFRpKLmB7yN79P1E4LEqFCFr2Os1Z1MC3Ez-ZgaI0T-J8IkU5z4raZ7VYdzho9WFU17m2LU6-O43dwViX_UFjE-yzgrfmR03XvW5GXiB1s7Lp7O2rz-3bIAQWi4aEJJ3t1k4D_HaUx5mDZY1u_EwuDa6uNmlHE-Qg5Ey5U4qNWUxc7JerlP2KaL7Xe2yk7LbCzDCNz8zCI4j4q">
+<div class="absolute top-2.5 left-2.5 flex flex-col gap-1 items-start">
+<span class="px-2 py-0.5 rounded-md bg-primary-container text-on-primary font-label-sm text-label-sm shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">volume_up</span>
+                상시 발화 허용
+              </span>
+</div>
+<button aria-label="북마크" class="absolute top-2.5 right-2.5 p-1.5 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface hover:text-error transition-colors" type="button">
+
+</button>
+<div class="absolute bottom-2 left-2 right-2 flex items-center justify-between text-on-primary font-label-sm text-label-sm px-2 py-1 rounded bg-inverse-surface/75 backdrop-blur-sm">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">meeting_room</span>
+                방음 폰부스 8실
+              </span>
+<span class="text-secondary-fixed">여유</span>
+</div>
+</div>
+<div class="flex-1 min-w-0 flex flex-col justify-between">
+<div>
+<div class="flex items-start justify-between gap-1 mb-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface truncate group-hover:text-primary transition-colors">드림플러스 강남</h3>
+<div class="flex items-center gap-0.5 text-primary shrink-0">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="font-label-md text-label-md">4.7</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm">(84)</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-2 flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-tertiary">directions_walk</span>
+                양재역/강남역 도보 8분 • 스타트업 허브
+              </p>
+<div class="inline-flex items-baseline gap-1.5 px-3 py-1 rounded-lg bg-surface-container-low mb-2.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant">1시간 환산</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">2,000원</span>
+<span class="font-body-sm text-body-sm text-outline">/ 일일권 16,000원</span>
+</div>
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">초고속 유선랜</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">수면실 보유</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">24시간 개방</span>
+</div>
+</div>
+<div class="pt-3 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">groups</span>
+                부트캠프 스터디 3팀 상주
+              </span>
+<a href="{{DATA:SCREEN:SCREEN_21}}" data-path="space-detail" class="inline-flex items-center justify-center px-3.5 py-1.5 rounded-lg bg-surface-container-high text-on-surface font-label-sm text-label-sm hover:bg-surface-variant transition-all">상세보기</a>
+</div>
+</div>
+</div>
+<!-- Space Card 4 -->
+<div class="group relative rounded-2xl bg-surface-container-lowest p-4 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col sm:flex-row gap-4 cursor-pointer" data-target-pin="pin-4">
+<div class="relative w-full sm:w-48 h-44 shrink-0 rounded-xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Quiet productivity study cafe in Gangnam with individual wooden carrel desks, subtle ambient lamps, developer typing on mechanical keyboard, clean library aesthetic, focus atmosphere" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC29YU1wA6rvhup14BQsgEdkx5R-OTxOOeSWEbzY0HIClgDNHkBc2rvJGw2cyoFQC9WG-m5FGoe_anUI6J-kXFLuyoh5Y-18ivcM97M1chtoELNaL2XzPxqYpGG1nYt13nK1r72mnib5o8EhSaakqFdRif8OF7WjZwZp8wVXd5BvDlNlXalWPlRnmYSNs5WD63AdqV_FSwpaKza84nFybPAmADZSA6rclr933VwFHBeDOkILpTJgYCe">
+<div class="absolute top-2.5 left-2.5 flex flex-col gap-1 items-start">
+<span class="px-2 py-0.5 rounded-md bg-surface-container-highest text-on-surface font-label-sm text-label-sm shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">volume_off</span>
+                조용한 학습 존
+              </span>
+</div>
+<button aria-label="북마크" class="absolute top-2.5 right-2.5 p-1.5 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface hover:text-error transition-colors" type="button">
+
+</button>
+<div class="absolute bottom-2 left-2 right-2 flex items-center justify-between text-on-primary font-label-sm text-label-sm px-2 py-1 rounded bg-inverse-surface/75 backdrop-blur-sm">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">meeting_room</span>
+                방음 폰부스 2실
+              </span>
+<span class="text-surface-variant">부스 내 발화</span>
+</div>
+</div>
+<div class="flex-1 min-w-0 flex flex-col justify-between">
+<div>
+<div class="flex items-start justify-between gap-1 mb-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface truncate group-hover:text-primary transition-colors">스파크플러스 강남3호점</h3>
+<div class="flex items-center gap-0.5 text-primary shrink-0">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="font-label-md text-label-md">4.6</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm">(62)</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-2 flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-tertiary">directions_walk</span>
+                강남역 8번 출구 도보 2분 • 초역세권 집중 라운지
+              </p>
+<div class="inline-flex items-baseline gap-1.5 px-3 py-1 rounded-lg bg-surface-container-low mb-2.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant">1시간 환산</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">2,400원</span>
+<span class="font-body-sm text-body-sm text-outline">/ 일일권 19,000원</span>
+</div>
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">C타입 65W 충전기</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">독서대 제공</span>
+</div>
+</div>
+<div class="pt-3 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">headphones</span>
+                조용한 개발 선호자 추천
+              </span>
+<a href="{{DATA:SCREEN:SCREEN_21}}" data-path="space-detail" class="inline-flex items-center justify-center px-3.5 py-1.5 rounded-lg bg-surface-container-high text-on-surface font-label-sm text-label-sm hover:bg-surface-variant transition-all">상세보기</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Panel: Interactive Canvas Map -->
+<div class="hidden lg:flex flex-1 relative rounded-2xl overflow-hidden bg-surface-container shadow-sm h-full" id="map-container">
+<!-- Interactive Vector Map Surface -->
+<div class="w-full h-full bg-cover bg-center relative" data-location="Gangnam Station, Seoul, South Korea" style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuCynnQdM7-VsWfgGbQS5RjuYzf4Rhvr7hW0PM4Xbq2atfnGN1SFUNd8fNDP-s4nsCAir4e55x8AGEG63KuYh72Cf17woKBgk0Dfg5_f4eU4vGOuLgq3cG9AlwhlitRi6aaMa744yaDNOue8Y1PIqn9sWJm0TeaRX_H3OZyQ7edgnfyEprPAxM8EtEKZPrGAeKNT8rLNsE5xsTYNVjAc6ijFZhcckNjmXxhYHNy4MZKPn80AGqMdPGd8&quot;);">
+<!-- Map Overlay Gradients for Depth -->
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/10 via-transparent to-transparent pointer-events-none"></div>
+<!-- Top-Left Area Indicator Badge -->
+<div class="absolute top-4 left-4 z-20 flex items-center gap-2 bg-surface-container-lowest/90 backdrop-blur-md px-3.5 py-2 rounded-xl shadow-md text-on-surface">
+<span class="w-2.5 h-2.5 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">서울 강남구 테헤란로 일대</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">실시간 탐색 활성</span>
+</div>
+<!-- Custom Interactive Map Pin 1: Stage9 (Selected / Active) -->
+<div class="absolute top-[38%] left-[44%] z-20 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group" id="pin-1">
+<div class="flex flex-col items-center">
+<div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-primary text-on-primary shadow-lg ring-4 ring-primary/20 transition-transform duration-200 group-hover:scale-110">
+<span class="material-symbols-outlined text-[14px]">volume_up</span>
+<span class="font-headline-sm text-label-lg font-bold">₩2,200</span>
+</div>
+<div class="w-2.5 h-2.5 bg-primary rotate-45 -mt-1 shadow-sm"></div>
+</div>
+</div>
+<!-- Custom Interactive Map Pin 2: FastFive -->
+<div class="absolute top-[28%] left-[62%] z-10 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group" id="pin-2">
+<div class="flex flex-col items-center">
+<div class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container-lowest text-on-surface shadow-md hover:bg-primary hover:text-on-primary transition-all duration-200">
+<span class="material-symbols-outlined text-[14px] text-secondary">headphones</span>
+<span class="font-label-md text-label-md font-bold">₩2,500</span>
+</div>
+<div class="w-2 h-2 bg-surface-container-lowest rotate-45 -mt-1 shadow-xs group-hover:bg-primary"></div>
+</div>
+</div>
+<!-- Custom Interactive Map Pin 3: DreamPlus -->
+<div class="absolute top-[65%] left-[38%] z-10 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group" id="pin-3">
+<div class="flex flex-col items-center">
+<div class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container-lowest text-on-surface shadow-md hover:bg-primary hover:text-on-primary transition-all duration-200">
+<span class="material-symbols-outlined text-[14px] text-primary">volume_up</span>
+<span class="font-label-md text-label-md font-bold">₩2,000</span>
+</div>
+<div class="w-2 h-2 bg-surface-container-lowest rotate-45 -mt-1 shadow-xs group-hover:bg-primary"></div>
+</div>
+</div>
+<!-- Custom Interactive Map Pin 4: SparkPlus -->
+<div class="absolute top-[48%] left-[22%] z-10 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group" id="pin-4">
+<div class="flex flex-col items-center">
+<div class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container-lowest text-on-surface shadow-md hover:bg-primary hover:text-on-primary transition-all duration-200">
+<span class="material-symbols-outlined text-[14px] text-outline">volume_off</span>
+<span class="font-label-md text-label-md font-bold">₩2,400</span>
+</div>
+<div class="w-2 h-2 bg-surface-container-lowest rotate-45 -mt-1 shadow-xs group-hover:bg-primary"></div>
+</div>
+</div>
+<!-- Interactive Pin Popup Preview (Floating over Pin 1) -->
+<div class="absolute top-[47%] left-[44%] transform -translate-x-1/2 z-30 w-72 bg-surface-container-lowest/95 backdrop-blur-md rounded-xl p-3 shadow-xl transition-all duration-300" id="popup-preview">
+<div class="flex items-start gap-2.5">
+<div class="w-14 h-14 rounded-lg bg-surface-container overflow-hidden shrink-0">
+<img class="w-full h-full object-cover" data-alt="Compact interior view of modern coworking space in Gangnam with comfortable leather seats and high speed wifi" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCOKMBjk2ipfKbq2BrhTpl4zDWUY1nNeoRTHixQOHZDodIffpo4YYK2hF--uWuaxWKkreOdto8dWGvrHjhPMr8RpSvfoI8zXkj31atgOI5jXTEN8Zj84CoZM0n96CQx6xXAe9oV9-kiz1XQs0vO6oAvpAbbtjGreRlOhw-cEqzXTGBIFnvvJUP71iJAphaBsb3x0ZUeviKWx_yOZZoFEB1xBC3PU8hlJWBGNcVAes5GjsXV99Iu3BPf">
+</div>
+<div class="min-w-0 flex-1">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary font-bold">상시 발화 허용</span>
+<button class="text-outline hover:text-on-surface" id="close-popup" type="button">
+<span class="material-symbols-outlined text-[16px]">close</span>
+</button>
+</div>
+<h4 class="font-label-lg text-label-lg font-bold text-on-surface truncate">스테이지나인 강남점</h4>
+<p class="font-label-sm text-label-sm text-on-surface-variant">강남역 2번 출구 도보 3분</p>
+<p class="font-label-md text-label-md text-primary font-bold mt-1">1시간 환산 2,200원</p>
+</div>
+</div>
+<div class="mt-2.5 pt-2 flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-primary">phone_in_talk</span>
+                폰부스 4실 (즉시 가능)
+              </span>
+<a class="text-primary hover:underline font-semibold flex items-center gap-0.5" href="{{DATA:SCREEN:SCREEN_21}}" data-path="space-detail">
+                길찾기
+                <span class="material-symbols-outlined text-[12px]">chevron_right</span>
+</a>
+</div>
+</div>
+<!-- Map Controls: Bottom Right (Zoom, Geo, Layer) -->
+<div class="absolute bottom-6 right-6 z-20 flex flex-col items-center gap-2">
+<div class="flex flex-col bg-surface-container-lowest/90 backdrop-blur-md rounded-xl shadow-lg overflow-hidden">
+<button aria-label="지도 확대" class="p-2.5 text-on-surface hover:bg-surface-container transition-colors flex items-center justify-center" type="button">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+<div class="h-[1px] bg-outline-variant/30 w-full"></div>
+<button aria-label="지도 축소" class="p-2.5 text-on-surface hover:bg-surface-container transition-colors flex items-center justify-center" type="button">
+<span class="material-symbols-outlined text-[20px]">remove</span>
+</button>
+</div>
+<button aria-label="내 현재 위치" class="p-2.5 rounded-xl bg-surface-container-lowest/90 backdrop-blur-md shadow-lg text-on-surface hover:text-primary hover:bg-surface-container transition-all flex items-center justify-center" type="button">
+<span class="material-symbols-outlined text-[20px]">my_location</span>
+</button>
+<button aria-label="위성/지도 레이어 전환" class="px-2.5 py-1.5 rounded-xl bg-surface-container-lowest/90 backdrop-blur-md shadow-lg text-on-surface hover:bg-surface-container transition-all flex items-center gap-1 font-label-sm text-label-sm" type="button">
+<span class="material-symbols-outlined text-[18px]">layers</span>
+              위성
+            </button>
+</div>
+<!-- Map Re-search at Current Boundary Pill -->
+<div class="absolute top-4 left-1/2 transform -translate-x-1/2 z-20">
+<button class="flex items-center gap-1.5 px-4 py-2 rounded-full bg-surface-container-lowest text-on-surface shadow-md hover:shadow-lg hover:text-primary transition-all font-label-md text-label-md" type="button">
+<span class="material-symbols-outlined text-[16px]">refresh</span>
+              이 위치에서 재검색
+            </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Mobile Split Toggle Interaction
+  const toggleList = document.getElementById('toggle-list');
+  const toggleMap = document.getElementById('toggle-map');
+  const listContainer = document.getElementById('list-container');
+  const mapContainer = document.getElementById('map-container');
+
+  if (toggleList && toggleMap && listContainer && mapContainer) {
+    toggleList.addEventListener('click', () => {
+      toggleList.classList.add('bg-primary', 'text-on-primary');
+      toggleList.classList.remove('text-on-surface-variant');
+      toggleMap.classList.remove('bg-primary', 'text-on-primary');
+      toggleMap.classList.add('text-on-surface-variant');
+      listContainer.classList.remove('hidden');
+      mapContainer.classList.add('hidden');
+    });
+
+    toggleMap.addEventListener('click', () => {
+      toggleMap.classList.add('bg-primary', 'text-on-primary');
+      toggleMap.classList.remove('text-on-surface-variant');
+      toggleList.classList.remove('bg-primary', 'text-on-primary');
+      toggleList.classList.add('text-on-surface-variant');
+      mapContainer.classList.remove('hidden');
+      listContainer.classList.add('hidden');
+    });
+  }
+
+  // Interactive Popup Close & Card Pin Hover Effect
+  const closePopup = document.getElementById('close-popup');
+  const popupPreview = document.getElementById('popup-preview');
+  if (closePopup && popupPreview) {
+    closePopup.addEventListener('click', (e) => {
+      e.stopPropagation();
+      popupPreview.style.display = 'none';
+    });
+  }
+
+  // Pinned Marker Click Behavior
+  const pin1 = document.getElementById('pin-1');
+  if (pin1 && popupPreview) {
+    pin1.addEventListener('click', () => {
+      popupPreview.style.display = 'block';
+    });
+  }
+
+  // Filter Reset Demo Button
+  const resetBtn = document.getElementById('reset-filter-btn');
+  if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+      alert('필터 조건이 기본값으로 초기화되었습니다.');
+    });
+  }
+</script></main><footer class="w-full bg-surface-container-low py-space-xl shadow-[0_-1px_4px_rgba(0,0,0,0.02)]"><div class="max-w-[1440px] mx-auto px-margin flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex flex-col sm:flex-row items-center gap-space-sm text-center sm:text-left"><div class="flex items-center gap-space-xs"><img alt="Space Finder" class="h-5 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRLx1uLqtRU_SsOUOLCYBzaw_v00jE-RcqwmD98szGPRtmU6IUTFKAxaylvoo81bfclwn_XWmThuQLz5sAO7qt3LSMkGbmN54ohPR0Hzr8vYr6Hl2L8CGacDhbRv6X1eBSki3fvBNHsEOpYWAh7iBPjc2IxOrgbq6dKR60ppGg5w7H-fPTm6qtXLVVq21DJeld42u4nadsMTpFXa-jwAlJzb-p-J_g4G20u_RUIQuCL3rjJNNSaCvdXsymPBArEe4tCw"></div><span class="hidden sm:inline text-outline">|</span><p class="font-body-sm text-body-sm text-on-surface-variant">© 2025 Space Finder. 모든 권리 보유.</p></div><div class="flex items-center gap-space-md font-body-sm text-body-sm text-on-surface-variant"><a class="hover:text-on-surface transition-colors" href="#">서비스 소개</a><a class="hover:text-on-surface transition-colors" href="#">문의하기</a><a class="hover:text-on-surface transition-colors" href="#">이용약관</a><a class="hover:text-on-surface transition-colors" href="#">개인정보처리방침</a></div></div></footer>
+
+
+
+
+
+
+
+
+
+
+
+</body></html>

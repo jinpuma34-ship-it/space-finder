@@ -1,0 +1,507 @@
+<!DOCTYPE html><html lang="ko" style="width: 1280px; height: 1823px; overflow: hidden; position: relative;"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"><link href="//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css" rel="stylesheet" type="text/css" class=""><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"primary-fixed-dim":"#b6c4ff","surface-variant":"#dae2fd","on-surface":"#131b2e","on-secondary-fixed-variant":"#004a79","secondary-container":"#8fc5ff","on-tertiary-fixed":"#131d24","surface-container-low":"#f2f3ff","tertiary-container":"#69737c","secondary":"#236296","surface-container":"#eaedff","secondary-fixed":"#d0e4ff","primary-container":"#4169e1","on-surface-variant":"#434654","on-background":"#131b2e","on-primary-fixed":"#00164e","inverse-surface":"#283044","on-secondary-container":"#055285","on-primary-fixed-variant":"#003baf","primary":"#214fc7","surface-dim":"#d2d9f4","tertiary-fixed-dim":"#bec8d2","on-error":"#ffffff","on-tertiary":"#ffffff","surface-tint":"#2854cc","primary-fixed":"#dce1ff","on-primary":"#ffffff","inverse-on-surface":"#eef0ff","on-primary-container":"#f8f7ff","on-secondary":"#ffffff","on-tertiary-container":"#f4f8ff","on-error-container":"#93000a","error":"#ba1a1a","inverse-primary":"#b6c4ff","outline":"#747685","on-tertiary-fixed-variant":"#3e4851","surface-container-high":"#e2e7ff","on-secondary-fixed":"#001d34","surface-container-highest":"#dae2fd","surface-bright":"#faf8ff","error-container":"#ffdad6","background":"#faf8ff","tertiary-fixed":"#dae4ee","outline-variant":"#c4c5d6","surface":"#faf8ff","secondary-fixed-dim":"#9bcbff","surface-container-lowest":"#ffffff","tertiary":"#515a63"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-sm":"0.5rem","space-xl":"2.5rem","space-lg":"1.5rem","space-md":"1rem","gutter":"1.5rem","margin":"2rem","space-xs":"0.25rem"},fontFamily:{"headline-lg-mobile":["Inter"],"headline-xl-mobile":["Inter"],"headline-md":["Inter"],"label-md":["Inter"],"label-lg":["Inter"],"headline-lg":["Inter"],"headline-sm":["Inter"],"body-lg":["Inter"],"body-sm":["Inter"],"body-md":["Inter"],"headline-xl":["Inter"],"label-sm":["Inter"]},fontSize:{"headline-lg-mobile":["24px",{"lineHeight":"32px","fontWeight":"700"}],"headline-xl-mobile":["28px",{"lineHeight":"36px","fontWeight":"800"}],"headline-md":["22px",{"lineHeight":"30px","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","fontWeight":"600"}],"headline-lg":["32px",{"lineHeight":"40px","fontWeight":"700"}],"headline-sm":["18px",{"lineHeight":"26px","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"18px","fontWeight":"400"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"headline-xl":["40px",{"lineHeight":"48px","fontWeight":"800"}],"label-sm":["11px",{"lineHeight":"14px","fontWeight":"600"}]}}}}</script><style>
+@font-face {
+    font-family: 'Paperlogy';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-7Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Paperlogy';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-6SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Paperlogy';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-5Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Paperlogy';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-4Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+body, p, span:not(.material-symbols-outlined), button, input, div, a, label {
+    font-family: 'Spoqa Han Sans Neo', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6, [class*='font-headline'], .font-bold, .font-extrabold, .font-semibold {
+    font-family: 'Paperlogy', 'Spoqa Han Sans Neo', sans-serif !important;
+}
+</style></head><body class="bg-background font-body-md text-on-surface antialiased min-h-screen flex flex-col"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 max-w-[1440px] mx-auto px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-sm" data-path="home" href="{{DATA:SCREEN:SCREEN_7}}"><img alt="Space Finder" class="h-8 w-auto object-contain cursor-pointer" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-wX2AKc-Rbbz66_POjDw_vZBvLQofUi9vGBOACDF6BpnxDuAgx9hVMkcfNWxgbESWbe0RE6pcO0PtSPTxAp5LvJr0lQhM8SS1X9BaT8aTDrE0wq92tqeYscPikjhB9dKVdMfRC3UeszMD0__s2ji_4NbBfWPfdXayb2kxTfucAwdhUGwPMefUfPOBL6tn_pkjlc4-_Bbk7dpYxy4wf8vihwnpZmWX_0iQo2G8NKanWqnABaLEnqjLXPglvYI9kpLLfA"></a><nav class="hidden md:flex items-center h-16 gap-space-sm" id="gnbNav"><a class="h-full inline-flex items-center px-space-sm font-label-lg text-label-lg text-[#475569] hover:text-[#4169E1] transition-all border-b-2 border-transparent" data-path="home" href="{{DATA:SCREEN:SCREEN_7}}">홈</a><a aria-current="page" class="h-full inline-flex items-center px-space-sm font-label-lg text-label-lg text-[#4169E1] font-semibold transition-all border-b-2 border-[#4169E1]" data-path="match-survey" href="{{DATA:SCREEN:SCREEN_27}}">추천 공간&nbsp; 찾기</a><a class="h-full inline-flex items-center px-space-sm font-label-lg text-label-lg text-[#475569] hover:text-[#4169E1] transition-all border-b-2 border-transparent" data-path="explore-and-map" href="{{DATA:SCREEN:SCREEN_23}}">공간 탐색 및 지도</a></nav></div><div class="flex items-center gap-space-md"></div></div></header><main class="flex-1 w-full pt-16 bg-background"><div class="flex flex-col w-full">
+<div class="relative w-full overflow-hidden py-space-xl px-margin flex items-center justify-center">
+<!-- Ambient Atmospheric Glows -->
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[720px] h-[360px] bg-gradient-to-b from-primary-fixed/40 via-surface-variant/30 to-transparent blur-3xl rounded-full pointer-events-none"></div>
+<div class="absolute top-1/3 -right-24 w-80 h-80 bg-secondary-fixed/40 blur-2xl rounded-full pointer-events-none"></div>
+<div class="absolute bottom-10 -left-20 w-72 h-72 bg-primary-fixed-dim/30 blur-2xl rounded-full pointer-events-none"></div>
+<div class="relative w-full max-w-[680px] flex flex-col gap-space-lg">
+<!-- Top Wizard Tracker Header -->
+<header class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 bg-surface-container-high rounded-full">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-primary tracking-wide">30초 맞춤 매칭</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant font-mono">
+<span class="text-primary-container text-base font-bold" id="stepIndicatorNumber">1</span> / 3 단계
+          </span>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex items-baseline justify-between">
+<p class="font-headline-md text-headline-md text-on-surface font-semibold tracking-tight">수강 환경 맞춤 공간 검색</p>
+<span class="font-label-sm text-label-sm text-outline hidden sm:inline">실시간 발화 &amp; 폰부스 정밀 필터</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">매일 노트북과 헤드셋을 챙기는 개발자를 위한 노이즈 프리존</p>
+</div>
+<!-- Stepper Progress Bars -->
+<div class="grid grid-cols-3 gap-space-xs mt-space-xs">
+<div class="h-1.5 rounded-full bg-primary-container transition-all duration-300" id="progressSegment1"></div>
+<div class="h-1.5 rounded-full bg-surface-container-highest transition-all duration-300" id="progressSegment2"></div>
+<div class="h-1.5 rounded-full bg-surface-container-highest transition-all duration-300" id="progressSegment3"></div>
+</div>
+<!-- Step Label Pills -->
+<div class="flex justify-between items-center text-center font-label-sm text-label-sm text-on-surface-variant px-1 pt-1">
+<span class="text-primary-container font-semibold cursor-pointer" id="stepLabel1">1. 동네 선택</span>
+<span class="text-outline cursor-pointer" id="stepLabel2">2. 발화 수준</span>
+<span class="text-outline cursor-pointer" id="stepLabel3">3. 폰부스 필요</span>
+</div>
+</header>
+<!-- Central Form Interactive Workspace -->
+<main class="w-full bg-surface-container-lowest rounded-xl shadow-xl shadow-primary/5 p-space-lg sm:p-space-xl flex flex-col gap-space-xl">
+<!-- STEP 1: REGION SELECTOR -->
+<section class="flex flex-col gap-space-md" id="stepBlock1">
+<div class="flex items-start gap-space-sm">
+<div class="w-7 h-7 rounded-lg bg-surface-container-high text-primary flex items-center justify-center font-label-md text-label-md font-bold shrink-0 mt-0.5">
+              01
+            </div>
+<div class="flex flex-col">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">어느 동네 근처를 찾으시나요?</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">캠퍼스, 지하철역, 집 근처 도보권 거점을 선택해주세요.</p>
+</div>
+</div>
+<!-- Search Input Box -->
+<div class="relative w-full">
+<div class="absolute inset-y-0 left-0 pl-space-md flex items-center pointer-events-none text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">search</span>
+</div>
+<input class="w-full pl-11 pr-space-md py-3 bg-surface-container-low text-on-surface placeholder:text-outline rounded-xl font-body-md text-body-md focus:bg-surface-container-lowest focus:shadow-md transition-all outline-none" id="regionInput" placeholder="동네, 역 이름 또는 도로명 검색 (예: 강남역, 성수동)" type="text" value="강남/역삼">
+<button class="absolute inset-y-0 right-0 pr-space-md flex items-center text-outline hover:text-on-surface transition-colors" id="clearSearchBtn" type="button">
+<span class="material-symbols-outlined text-[18px]">cancel</span>
+</button>
+</div>
+<!-- Curated Region Chips Rail -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">수강생 인기 밀집 권역</span>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">local_fire_department</span> 실시간 추천
+              </span>
+</div>
+<div class="flex flex-wrap gap-space-xs" id="regionChipsContainer">
+<button class="region-chip active px-space-md py-2 rounded-lg font-label-md text-label-md bg-primary-container text-on-primary shadow-sm hover:opacity-95 transition-all flex items-center gap-1.5 cursor-pointer" data-region="강남/역삼" type="button">
+<span class="">강남 / 역삼</span>
+<span class="material-symbols-outlined text-[14px]">check</span>
+</button>
+<button class="region-chip px-space-md py-2 rounded-lg font-label-md text-label-md bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all flex items-center gap-1.5 cursor-pointer" data-region="성수/서울숲" type="button">
+<span class="">성수 / 서울숲</span>
+</button>
+<button class="region-chip px-space-md py-2 rounded-lg font-label-md text-label-md bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all flex items-center gap-1.5 cursor-pointer" data-region="홍대/합정" type="button">
+<span class="">홍대 / 합정</span>
+</button>
+<button class="region-chip px-space-md py-2 rounded-lg font-label-md text-label-md bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all flex items-center gap-1.5 cursor-pointer" data-region="판교" type="button">
+<span class="">판교</span>
+</button>
+<button class="region-chip px-space-md py-2 rounded-lg font-label-md text-label-md bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all flex items-center gap-1.5 cursor-pointer" data-region="영등포/여의도" type="button">
+<span class="">영등포 / 여의도</span>
+</button>
+<button class="region-chip px-space-md py-2 rounded-lg font-label-md text-label-md bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all flex items-center gap-1.5 cursor-pointer" data-region="신촌/이대" type="button">
+<span class="">신촌 / 이대</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Divider Decorator -->
+<div class="h-px bg-surface-container-high w-full"></div>
+<!-- STEP 2: VOICE CLEARANCE LEVEL -->
+<section class="flex flex-col gap-space-md" id="stepBlock2">
+<div class="flex items-start gap-space-sm">
+<div class="w-7 h-7 rounded-lg bg-surface-container-high text-primary flex items-center justify-center font-label-md text-label-md font-bold shrink-0 mt-0.5">
+              02
+            </div>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">수업 중 말을 얼마나 하시나요?</h2>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm">핵심 필터</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">눈치 보지 않고 말할 수 있는 음향 허용 기준 공간을 매칭합니다.</p>
+</div>
+</div>
+<!-- Radio Cards Stream -->
+<div class="flex flex-col gap-space-sm" id="voiceOptionsGroup">
+<!-- Option A: Free Speech -->
+<label class="voice-card group cursor-pointer relative block p-space-md rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all overflow-hidden" data-voice="free">
+<input checked="" class="sr-only" name="voice_tier" type="radio" value="free">
+<div class="absolute inset-0 bg-primary-container/5 pointer-events-none opacity-100 transition-opacity voice-active-bg"></div>
+<div class="relative flex items-start gap-space-md">
+<div class="radio-indicator w-5 h-5 rounded-full bg-primary-container flex items-center justify-center text-on-primary mt-1 shrink-0">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</div>
+<div class="flex-1 flex flex-col gap-1 min-w-0">
+<div class="flex items-center justify-between gap-space-xs">
+<span class="font-label-lg text-label-lg text-primary-container font-bold flex items-center gap-1.5">
+                      자유롭게 대화 필요
+                      <span class="px-2 py-0.5 rounded bg-primary-container text-on-primary font-label-sm text-label-sm">추천</span>
+</span>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[16px]">record_voice_over</span> 마이크 상시 ON
+                    </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface font-medium">코드 리뷰, 짝 프로그래밍, 데일리 스크럼</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">카페 소음 수준(50~65dB)이 자연스럽게 허용되는 오픈형 데스크 및 토론 구역</p>
+</div>
+</div>
+</label>
+<!-- Option B: Intermittent Speech -->
+<label class="voice-card group cursor-pointer relative block p-space-md rounded-xl bg-surface-container-low shadow-none hover:shadow-sm transition-all overflow-hidden" data-voice="intermittent">
+<input class="sr-only" name="voice_tier" type="radio" value="intermittent">
+<div class="absolute inset-0 bg-primary-container/5 pointer-events-none opacity-0 transition-opacity voice-active-bg"></div>
+<div class="relative flex items-start gap-space-md">
+<div class="radio-indicator w-5 h-5 rounded-full bg-surface-container-highest text-transparent flex items-center justify-center mt-1 shrink-0">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</div>
+<div class="flex-1 flex flex-col gap-1 min-w-0">
+<div class="flex items-center justify-between gap-space-xs">
+<span class="font-label-lg text-label-lg text-on-surface font-bold">질문이나 답변만 말하면 됨</span>
+<span class="font-label-sm text-label-sm text-outline flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[16px]">mic_none</span> 간헐적 질의
+                    </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface">간헐적인 질의응답 및 멘토 피드백 수신</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">낮은 목소리 발화가 가능하거나 라운지 통화 가능 구역이 분리된 복합형 공간</p>
+</div>
+</div>
+</label>
+<!-- Option C: Silent Typing Only -->
+<label class="voice-card group cursor-pointer relative block p-space-md rounded-xl bg-surface-container-low shadow-none hover:shadow-sm transition-all overflow-hidden" data-voice="silent">
+<input class="sr-only" name="voice_tier" type="radio" value="silent">
+<div class="absolute inset-0 bg-primary-container/5 pointer-events-none opacity-0 transition-opacity voice-active-bg"></div>
+<div class="relative flex items-start gap-space-md">
+<div class="radio-indicator w-5 h-5 rounded-full bg-surface-container-highest text-transparent flex items-center justify-center mt-1 shrink-0">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</div>
+<div class="flex-1 flex flex-col gap-1 min-w-0">
+<div class="flex items-center justify-between gap-space-xs">
+<span class="font-label-lg text-label-lg text-on-surface font-bold">듣기만 하면 됨 (타자만 침)</span>
+<span class="font-label-sm text-label-sm text-outline flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[16px]">volume_off</span> 무음 집중
+                    </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface">강의 수강, 개별 과제 및 알고리즘 풀이</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">초저소음 스터디존 위주, 키보드 타이핑 소음만 허용되는 집중형 스터디카페</p>
+</div>
+</div>
+</label>
+</div>
+</section>
+<!-- Divider Decorator -->
+<div class="h-px bg-surface-container-high w-full"></div>
+<!-- STEP 3: PHONE BOOTH REQUIREMENT -->
+<section class="flex flex-col gap-space-md" id="stepBlock3">
+<div class="flex items-start gap-space-sm">
+<div class="w-7 h-7 rounded-lg bg-surface-container-high text-primary flex items-center justify-center font-label-md text-label-md font-bold shrink-0 mt-0.5">
+              03
+            </div>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">폰부스가 꼭 있어야 하나요?</h2>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm">방음 필수</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">긴급 면접, 1:1 상담, 카메라 켜진 비밀 화상 회의용 독립 부스 여부입니다.</p>
+</div>
+</div>
+<!-- Booth Selection Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md" id="boothOptionsGroup">
+<!-- Booth Option 1: Essential -->
+<label class="booth-card cursor-pointer relative p-space-md rounded-xl hover:shadow-md transition-all flex flex-col justify-between gap-space-md overflow-hidden bg-surface-container-lowest shadow-sm" data-booth="required"><input checked="" class="sr-only" name="booth_req" type="radio" value="required"><div class="absolute inset-0 bg-primary-container/5 pointer-events-none opacity-100 booth-active-bg transition-opacity"></div><div class="relative flex items-start justify-between"><div class="w-10 h-10 rounded-xl bg-primary-fixed flex items-center justify-center text-primary"><span class="material-symbols-outlined text-[24px]">phone_in_talk</span></div><div class="booth-indicator w-5 h-5 rounded-full flex items-center justify-center bg-primary-container text-on-primary"><span class="material-symbols-outlined text-[14px]">check</span></div></div><div class="relative flex flex-col gap-1"><p class="font-label-lg text-label-lg font-bold text-primary-container">꼭 있어야 함 (필수)</p><p class="font-body-sm text-body-sm text-on-surface font-medium">면접 · 1:1 코드 리뷰 · 실시간 화상 회의</p><p class="font-label-sm text-label-sm text-on-surface-variant mt-1">방음 부스 최소 1개 이상 보유 공간만 필터</p></div><div class="relative pt-space-xs flex items-center gap-1.5 font-label-sm text-label-sm text-secondary font-semibold"><span class="material-symbols-outlined text-[16px]">verified</span><span class="">부스 대기 현황 정보 제공</span></div></label>
+<!-- Booth Option 2: Optional -->
+<label class="booth-card cursor-pointer relative p-space-md rounded-xl hover:shadow-sm transition-all flex flex-col justify-between gap-space-md overflow-hidden bg-surface-container-low shadow-none" data-booth="not_required"><input class="sr-only" name="booth_req" type="radio" value="not_required"><div class="absolute inset-0 bg-primary-container/5 pointer-events-none opacity-0 booth-active-bg transition-opacity"></div><div class="relative flex items-start justify-between"><div class="w-10 h-10 rounded-xl bg-surface-container-highest flex items-center justify-center text-on-surface-variant"><span class="material-symbols-outlined text-[24px]">desk</span></div><div class="booth-indicator w-5 h-5 rounded-full flex items-center justify-center bg-surface-container-highest text-transparent"><span class="material-symbols-outlined text-[14px]">check</span></div></div><div class="relative flex flex-col gap-1"><p class="font-label-lg text-label-lg font-bold text-on-surface">없어도 됨 (상관없음)</p><p class="font-body-sm text-body-sm text-on-surface font-medium">오픈 데스크 발화 공간이면 충분</p><p class="font-label-sm text-label-sm text-on-surface-variant mt-1">부스 없는 대신 가성비 좋은 공간 포함</p></div><div class="relative pt-space-xs flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant"><span class="material-symbols-outlined text-[16px]">schedule</span><span class="">1시간 환산 평균 ₩1,800~</span></div></label>
+</div>
+</section>
+<!-- Dynamic Recommendation Preview Badge -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-surface-container-high text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">filter_alt</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">현재 조건 매칭 공간</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold" id="matchedCount">30곳 발견됨</span>
+</div>
+</div>
+<a class="hidden sm:flex items-center gap-1 text-on-surface-variant hover:text-primary transition-colors font-label-sm text-label-sm cursor-pointer" data-path="explore-and-map" href="{{DATA:SCREEN:SCREEN_23}}"><span class="">실시간 정규화 요금순</span><span class="material-symbols-outlined text-[16px]">north_east</span></a>
+</div>
+<!-- Primary Submission Action -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<a class="w-full h-14 bg-primary-container text-on-primary rounded-xl font-label-lg text-label-lg flex items-center justify-center gap-space-sm shadow-md hover:bg-primary hover:shadow-lg transition-all active:scale-[0.98] group" data-path="explore-and-map" href="{{DATA:SCREEN:SCREEN_23}}" id="submitMatchBtn">
+<span class="font-bold text-base">추천 공간 보러가기</span>
+<span class="material-symbols-outlined text-[20px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+<button class="py-2 text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm flex items-center justify-center gap-1 transition-colors self-center" id="resetCriteriaBtn" type="button">
+<span class="material-symbols-outlined text-[15px]">refresh</span>
+<span class="">조건 초기화</span>
+</button>
+</div>
+</main>
+<!-- Verified Social Proof Information Banner -->
+<footer class="p-space-md bg-surface-container rounded-xl flex items-start sm:items-center gap-space-md">
+<div class="w-9 h-9 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">groups</span>
+</div>
+<div class="flex-1 min-w-0">
+<p class="font-label-sm text-label-sm text-on-surface font-semibold tracking-tight">수강생 실측 노이즈 검증 완료</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+            약 1,200여 명의 부트캠프 수강생이 검증한 최적의 공간으로 즉시 필터링됩니다.
+          </p>
+</div>
+<div class="hidden md:flex flex-col text-right shrink-0">
+<span class="font-label-sm text-label-sm text-primary font-bold">정확도 98.4%</span>
+<span class="font-body-sm text-body-sm text-outline">소음 리포트 기준</span>
+</div>
+</footer>
+<!-- Quick Tips Accordion / Contextual Clarification -->
+<div class="flex flex-col gap-space-xs px-space-sm">
+<div class="flex items-center justify-between text-outline font-label-sm text-label-sm">
+<span class="">* 스페이스 파인더는 카페 및 공유오피스의 복잡한 이용권을 '1시간 환산 요금'으로 투명하게 표준화합니다.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    // Form interactive state tracking
+    const state = {
+      region: "강남/역삼",
+      voice: "free",
+      booth: "required"
+    };
+
+    // Calculate simulated results count
+    function updateMatchCounter() {
+      let base = 28;
+      if (state.region === "강남/역삼") base = 34;
+      else if (state.region === "성수/서울숲") base = 19;
+      else if (state.region === "홍대/합정") base = 22;
+      else if (state.region === "판교") base = 15;
+      else if (state.region === "영등포/여의도") base = 12;
+
+      if (state.voice === "free") base -= 4;
+      if (state.booth === "required") base = Math.max(5, Math.floor(base * 0.7));
+
+      const countEl = document.getElementById("matchedCount");
+      if (countEl) {
+        countEl.textContent = base + "곳 발견됨";
+      }
+    }
+
+    // Region chip handling
+    const regionChips = document.querySelectorAll(".region-chip");
+    const regionInput = document.getElementById("regionInput");
+    const clearBtn = document.getElementById("clearSearchBtn");
+
+    regionChips.forEach(chip => {
+      chip.addEventListener("click", () => {
+        regionChips.forEach(c => {
+          c.classList.remove("active", "bg-primary-container", "text-on-primary", "shadow-sm");
+          c.classList.add("bg-surface-container-low", "text-on-surface-variant");
+          const icon = c.querySelector(".material-symbols-outlined");
+          if (icon) icon.remove();
+        });
+
+        chip.classList.add("active", "bg-primary-container", "text-on-primary", "shadow-sm");
+        chip.classList.remove("bg-surface-container-low", "text-on-surface-variant");
+
+        const checkIcon = document.createElement("span");
+        checkIcon.className = "material-symbols-outlined text-[14px]";
+        checkIcon.textContent = "check";
+        chip.appendChild(checkIcon);
+
+        const val = chip.getAttribute("data-region");
+        state.region = val;
+        if (regionInput) regionInput.value = val;
+        updateMatchCounter();
+      });
+    });
+
+    if (regionInput) {
+      regionInput.addEventListener("input", (e) => {
+        state.region = e.target.value;
+        updateMatchCounter();
+      });
+    }
+
+    if (clearBtn) {
+      clearBtn.addEventListener("click", () => {
+        if (regionInput) {
+          regionInput.value = "";
+          regionInput.focus();
+        }
+      });
+    }
+
+    // Voice Tier radio cards handling
+    const voiceCards = document.querySelectorAll(".voice-card");
+    voiceCards.forEach(card => {
+      card.addEventListener("click", () => {
+        voiceCards.forEach(c => {
+          c.classList.remove("bg-surface-container-lowest", "shadow-sm");
+          c.classList.add("bg-surface-container-low", "shadow-none");
+          
+          const bgOverlay = c.querySelector(".voice-active-bg");
+          if (bgOverlay) bgOverlay.classList.replace("opacity-100", "opacity-0");
+
+          const radioIndicator = c.querySelector(".radio-indicator");
+          if (radioIndicator) {
+            radioIndicator.classList.remove("bg-primary-container", "text-on-primary");
+            radioIndicator.classList.add("bg-surface-container-highest", "text-transparent");
+          }
+
+          const title = c.querySelector(".font-label-lg");
+          if (title) {
+            title.classList.remove("text-primary-container");
+            title.classList.add("text-on-surface");
+          }
+        });
+
+        card.classList.remove("bg-surface-container-low", "shadow-none");
+        card.classList.add("bg-surface-container-lowest", "shadow-sm");
+
+        const bgOverlay = card.querySelector(".voice-active-bg");
+        if (bgOverlay) bgOverlay.classList.replace("opacity-0", "opacity-100");
+
+        const radioIndicator = card.querySelector(".radio-indicator");
+        if (radioIndicator) {
+          radioIndicator.classList.remove("bg-surface-container-highest", "text-transparent");
+          radioIndicator.classList.add("bg-primary-container", "text-on-primary");
+        }
+
+        const title = card.querySelector(".font-label-lg");
+        if (title) {
+          title.classList.remove("text-on-surface");
+          title.classList.add("text-primary-container");
+        }
+
+        const radioInput = card.querySelector("input[type='radio']");
+        if (radioInput) radioInput.checked = true;
+
+        state.voice = card.getAttribute("data-voice");
+        updateMatchCounter();
+      });
+    });
+
+    // Booth requirement cards handling
+    const boothCards = document.querySelectorAll(".booth-card");
+    boothCards.forEach(card => {
+      card.addEventListener("click", () => {
+        boothCards.forEach(c => {
+          c.classList.remove("bg-surface-container-lowest", "shadow-sm");
+          c.classList.add("bg-surface-container-low", "shadow-none");
+
+          const bgOverlay = c.querySelector(".booth-active-bg");
+          if (bgOverlay) bgOverlay.classList.replace("opacity-100", "opacity-0");
+
+          const indicator = c.querySelector(".booth-indicator");
+          if (indicator) {
+            indicator.classList.remove("bg-primary-container", "text-on-primary");
+            indicator.classList.add("bg-surface-container-highest", "text-transparent");
+          }
+
+          const title = c.querySelector(".font-label-lg");
+          if (title) {
+            title.classList.remove("text-primary-container");
+            title.classList.add("text-on-surface");
+          }
+        });
+
+        card.classList.remove("bg-surface-container-low", "shadow-none");
+        card.classList.add("bg-surface-container-lowest", "shadow-sm");
+
+        const bgOverlay = card.querySelector(".booth-active-bg");
+        if (bgOverlay) bgOverlay.classList.replace("opacity-0", "opacity-100");
+
+        const indicator = card.querySelector(".booth-indicator");
+        if (indicator) {
+          indicator.classList.remove("bg-surface-container-highest", "text-transparent");
+          indicator.classList.add("bg-primary-container", "text-on-primary");
+        }
+
+        const title = card.querySelector(".font-label-lg");
+        if (title) {
+          title.classList.remove("text-on-surface");
+          title.classList.add("text-primary-container");
+        }
+
+        const radioInput = card.querySelector("input[type='radio']");
+        if (radioInput) radioInput.checked = true;
+
+        state.booth = card.getAttribute("data-booth");
+        updateMatchCounter();
+      });
+    });
+
+    // Reset button functionality
+    const resetBtn = document.getElementById("resetCriteriaBtn");
+    if (resetBtn) {
+      resetBtn.addEventListener("click", () => {
+        // Reset to initial Gangnam
+        const defaultChip = document.querySelector('[data-region="강남/역삼"]');
+        if (defaultChip) defaultChip.click();
+
+        const defaultVoice = document.querySelector('[data-voice="free"]');
+        if (defaultVoice) defaultVoice.click();
+
+        const defaultBooth = document.querySelector('[data-booth="required"]');
+        if (defaultBooth) defaultBooth.click();
+      });
+    }
+
+    // Track scroll / active step indicator update
+    const step1 = document.getElementById("stepBlock1");
+    const step2 = document.getElementById("stepBlock2");
+    const step3 = document.getElementById("stepBlock3");
+    const seg1 = document.getElementById("progressSegment1");
+    const seg2 = document.getElementById("progressSegment2");
+    const seg3 = document.getElementById("progressSegment3");
+    const numInd = document.getElementById("stepIndicatorNumber");
+
+    window.addEventListener("scroll", () => {
+      const scrollPos = window.scrollY + 200;
+      if (step3 && scrollPos >= step3.offsetTop) {
+        if (numInd) numInd.textContent = "3";
+        if (seg2) seg2.classList.replace("bg-surface-container-highest", "bg-primary-container");
+        if (seg3) seg3.classList.replace("bg-surface-container-highest", "bg-primary-container");
+      } else if (step2 && scrollPos >= step2.offsetTop) {
+        if (numInd) numInd.textContent = "2";
+        if (seg2) seg2.classList.replace("bg-surface-container-highest", "bg-primary-container");
+        if (seg3) seg3.classList.replace("bg-primary-container", "bg-surface-container-highest");
+      } else {
+        if (numInd) numInd.textContent = "1";
+        if (seg2) seg2.classList.replace("bg-primary-container", "bg-surface-container-highest");
+        if (seg3) seg3.classList.replace("bg-primary-container", "bg-surface-container-highest");
+      }
+    }, { passive: true });
+
+    updateMatchCounter();
+  })();
+</script></main><footer class="w-full bg-surface-container-low py-space-xl shadow-[0_-1px_4px_rgba(0,0,0,0.02)]"><div class="max-w-[1440px] mx-auto px-margin flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex flex-col sm:flex-row items-center gap-space-sm text-center sm:text-left"><img alt="Space Finder" class="h-6 w-auto object-contain inline-block" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-wX2AKc-Rbbz66_POjDw_vZBvLQofUi9vGBOACDF6BpnxDuAgx9hVMkcfNWxgbESWbe0RE6pcO0PtSPTxAp5LvJr0lQhM8SS1X9BaT8aTDrE0wq92tqeYscPikjhB9dKVdMfRC3UeszMD0__s2ji_4NbBfWPfdXayb2kxTfucAwdhUGwPMefUfPOBL6tn_pkjlc4-_Bbk7dpYxy4wf8vihwnpZmWX_0iQo2G8NKanWqnABaLEnqjLXPglvYI9kpLLfA"><span class="hidden sm:inline text-outline">|</span><p class="font-body-sm text-body-sm text-on-surface-variant">© 2025 Space Finder. 모든 권리 보유.</p></div><div class="flex items-center gap-space-md font-body-sm text-body-sm text-on-surface-variant"><a class="hover:text-on-surface transition-colors" href="#">서비스 소개</a><a class="hover:text-on-surface transition-colors" href="#">문의하기</a><a class="hover:text-on-surface transition-colors" href="#">이용약관</a><a class="hover:text-on-surface transition-colors" href="#">개인정보처리방침</a></div></div></footer>
+
+
+
+
+
+
+
+</body></html>

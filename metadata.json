@@ -1,0 +1,6 @@
+{
+  "name": "스페이스 파인더 (Space Finder) - 부트캠프 수강생 맞춤 작업 공간 추천",
+  "description": "마이크 발화 빈도, 방음 폰부스 수량, 시간당 환산 요금을 기준으로 온라인 부트캠프 수강생에게 최적화된 작업 공간을 탐색하고 추천합니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
